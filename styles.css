@@ -1,0 +1,96 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/pokemon-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 80px 30px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 27px;
+}
+
+input {
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.error {
+    text-align: center;
+    display: none;
+    font-size: 17px;
+    color: rgb(179, 76, 76);
+    margin-top: 15px;
+}
+
+button{
+    padding: 5px 30px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+h1, h2{
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 36px;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 30px;
+}
+section {
+    width: 33vw;
+    background-color: white;
+    border-radius: 23px;
+}
+
+section:hover {
+    box-shadow: 0 0 1px #000000;
+}
+
+.pokemon_img {
+    width: 220px;
+}
+
+
+.height, .weight {
+    margin-top: 10px;
+    font-size: 25px;
+}
